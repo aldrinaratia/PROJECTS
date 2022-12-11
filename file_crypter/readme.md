@@ -6,7 +6,7 @@
     Author : AL Drin
     Version: v1.0
     
-    >> python filecrypt.py
+    >> python3 filecrypt.py
     
     File Extension: ALL TYPE OF FILE
     NOTE: extension i already test
@@ -20,5 +20,5 @@
     DECRYPTION 
     To decyrpt your file add in this directory the key 
     "encryptionkey.key" and filename "secret.txt" 
-
+    
 ```

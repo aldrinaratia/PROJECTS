@@ -2,6 +2,8 @@
 # -*- coding: UTF-8 -*-
 
 from cryptography.fernet import Fernet
+# pip install cryptography
+# pip install fernet 
 
 
 def menu():

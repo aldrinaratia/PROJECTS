@@ -10,7 +10,7 @@
     
     File Extension: ALL TYPE OF FILE
     NOTE: extension i already test
-        exe,elf, txt,png,jpg,py,java,c,h,ps1,vbs,vba,cpp,sh,go,rb,lua
+        doc,xls,csv,exe,elf, txt,png,jpg,py,java,c,ps1,vbs,vba,cpp,sh,go,rb,lua
     
     ENCRYPTION 
     file auto generate key after select encrypt

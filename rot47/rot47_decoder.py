@@ -14,3 +14,4 @@ secret = "#@E\cf"
 
 
 print(rot47(secret))
+# output:Rot-47

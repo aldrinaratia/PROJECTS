@@ -1,5 +1,5 @@
- 
-def rot47_decoder(s):
+### rot47 decoder and encoder
+def rot47(s):
     x = []
     for i in range(len(s)):
         j = ord(s[i])
@@ -7,11 +7,12 @@ def rot47_decoder(s):
             x.append(chr(33 + ((j + 14) % 94)))
         else:
             x.append(s[i])
-    return ''.join(x)
-
-# sample 
-secret = "#@E\cf"
+            
+    print("".join(x))
 
 
-print(rot47_decoder(secret))
-# output:Rot-47
+decode = "#@E\cf"
+encode = "Rot-47"
+
+rot47(decode)
+rot47(encode)

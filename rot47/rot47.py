@@ -1,4 +1,4 @@
-
+ 
 def rot47_decoder(s):
     x = []
     for i in range(len(s)):

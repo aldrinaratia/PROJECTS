@@ -2,6 +2,6 @@
 ```py
 Tools
 filecrypter - encyrpt  personal files and docs
-rot47 - rot47 decoder 
+rot47_decoder - rot47 decoder 
 ```
 

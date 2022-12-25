@@ -6,8 +6,7 @@ def rot47(s):
         if j >= 33 and j <= 126:
             x.append(chr(33 + ((j + 14) % 94)))
         else:
-            x.append(s[i])
-            
+            x.append(s[i]) 
     print("".join(x))
 
 

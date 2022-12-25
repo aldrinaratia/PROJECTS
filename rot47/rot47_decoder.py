@@ -9,8 +9,8 @@ def rot47(s):
             x.append(s[i])
     return ''.join(x)
 
-# picoctf
-secret = "A:4@r%uL`M-^M0c0AbcM-MFE055a4ce`eN"
+# sample 
+secret = "#@E\cf"
 
 
 print(rot47(secret))

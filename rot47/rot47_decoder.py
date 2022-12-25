@@ -1,5 +1,5 @@
-### rot47 decoder 
-def rot47(s):
+
+def rot47_decoder(s):
     x = []
     for i in range(len(s)):
         j = ord(s[i])
@@ -13,5 +13,5 @@ def rot47(s):
 secret = "#@E\cf"
 
 
-print(rot47(secret))
+print(rot47_decoder(secret))
 # output:Rot-47
